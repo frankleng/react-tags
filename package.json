@@ -1,7 +1,7 @@
 {
-  "name": "react-tag-autocomplete",
-  "version": "5.0.4",
-  "description": "React Tag Autocomplete is a simple tagging component ready to drop in your React projects.",
+  "name": "react-tokenized-input",
+  "version": "1.0.0",
+  "description": "Simple tagging component ready to drop in your React projects.",
   "main": "dist-es5/ReactTags.js",
   "jsnext:main": "dist-es6/ReactTags.js",
   "scripts": {
@@ -29,12 +29,11 @@
     "tag input",
     "react-component",
     "autosuggest",
-    "autocomplete"
+    "autocomplete",
+    "tokenizer"
   ],
   "contributors": [
-    "Prakhar Srivastav",
-    "Matt Hinchliffe",
-    "Simon Hötten"
+    "Frank Leng"
   ],
   "license": "MIT",
   "repository": "https://github.com/i-like-robots/react-tags",
