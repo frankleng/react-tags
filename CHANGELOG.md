@@ -1,5 +1,14 @@
 # Changelog
 
+## 5.2.0
+
+- Add `allowBackspace` option to disable the ability to delete the selected tags when backspace is pressed while focussed on the text input
+- Refactors `updateInputWidth` method to update when any props change ([@joekrill](https://github.com/joekrill))
+
+## 5.1.0
+
+- Added `tagComponent` option to allow the rendering of a custom tag component
+
 ## 5.0.4
 
 - Fixed cursor focus being lost when clicking a suggestion

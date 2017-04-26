@@ -1,6 +1,6 @@
 {
   "name": "react-tokenized-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple tagging component ready to drop in your React projects.",
   "main": "dist-es5/ReactTags.js",
   "jsnext:main": "dist-es6/ReactTags.js",
@@ -29,10 +29,12 @@
     "tag input",
     "react-component",
     "autosuggest",
-    "autocomplete",
-    "tokenizer"
+    "autocomplete"
   ],
   "contributors": [
+    "Prakhar Srivastav",
+    "Matt Hinchliffe",
+    "Simon Hötten",
     "Frank Leng"
   ],
   "license": "MIT",

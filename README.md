@@ -37,13 +37,12 @@ var App = React.createClass({
     }
   },
   handleDelete: function (i) {
-    var tags = this.state.tags
+    var tags = this.state.tags.slice(0)
     tags.splice(i, 1)
     this.setState({ tags: tags })
   },
   handleAddition: function (tag) {
-    var tags = this.state.tags
-    tags.push(tag)
+    var tags = this.state.tags.concat(tag)
     this.setState({ tags: tags })
   },
   render: function () {
@@ -74,6 +73,7 @@ React.render(<App />, document.getElementById('app'))
 - [`handleDelete`](#handleDeleteOption)
 - [`handleInputChange`](#handleInputChange)
 - [`allowNew`](#allowNew)
+- [`tagComponent`](#tagComponent)
 
 <a name="tagsOption"></a>
 #### tags (optional)
@@ -191,6 +191,16 @@ function (input) {
 #### allowNew (optional)
 
 Allows users to add new (not suggested) tags. Default: `false`.
+
+<a name="allowBackspace"></a>
+#### allowBackspace (optional)
+
+Disables ability to delete the selected tags when backspace is pressed while focussed on the text input. Default: `true`.
+
+<a name="tagComponent"></a>
+#### tagComponent (optional)
+
+Provide a custom tag component to render. Default: `null`.
 
 ### Styling
 
